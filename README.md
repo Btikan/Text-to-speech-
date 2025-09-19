@@ -1,18 +1,18 @@
-# 🗣️ Text-to-Speech App (AWS + Terraform)
+# Text-to-Speech App (AWS + Terraform)
 
 A serverless **Text-to-Speech (TTS)** application built using **AWS Lambda, API Gateway, Amazon Polly, and S3**, with infrastructure provisioned by **Terraform**.  
 This project was developed as my **capstone project** to demonstrate knowledge of AWS cloud services.
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 The goal of this project was to design and implement a **scalable, serverless application** that converts user-provided text into natural-sounding speech.  
 It showcases the use of AWS services for compute, storage, and AI, combined with Terraform for Infrastructure as Code (IaC).
 
 ---
 
-## 🚀 Architecture
-![Architecture Diagram](architecture.png)
+## Architecture
+<img width="644" height="358" alt="tts-architecture diagram" src="https://github.com/user-attachments/assets/574c7d27-ffad-4d36-b1c4-03bd8be995f9" />
 
 **Flow:**
 1. **Frontend (HTML, CSS, JS)** → User inputs text.  
@@ -23,7 +23,7 @@ It showcases the use of AWS services for compute, storage, and AI, combined with
 
 ---
 
-## ✨ Features
+## Features
 - Convert text into speech (MP3 format).  
 - Secure, scalable, and serverless architecture.  
 - Real-time response with presigned URLs.  
@@ -32,7 +32,7 @@ It showcases the use of AWS services for compute, storage, and AI, combined with
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - **AWS Lambda** (Python runtime)  
 - **Amazon API Gateway v2 (HTTP API)**  
 - **Amazon Polly** (Text-to-Speech)  
@@ -42,18 +42,12 @@ It showcases the use of AWS services for compute, storage, and AI, combined with
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - AWS Account  
 - Terraform installed  
 - Live Server extension (VS Code) or S3 static hosting   
-
-### Deployment
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/your-repo/text-to-speech.git
-   cd text-to-speech
    
 ##Challenges & Solutions
 
